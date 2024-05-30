@@ -33,8 +33,8 @@ ytEjemplo: `╭❲❕❳╯ Para usar este comando, debe de realizar una búsque
 
 //Auto Nivel
 rpgNivelDescrip: `✨ Mientras mas uses el bot, mas subirás de nivel. 👀🪄`
-rpgNuevoNivel: `✨ Subiste de nivel!!
-rgpNewLevel: `Nivel Anterior / Nivel Actual
+rpgNuevoNivel: `✨ Subiste de nivel!!`
+rgpNewLevel: `Nivel Anterior Nivel Actual`
 rgpNewRango: `Nuevo Rango:`
 
 //Comandos descargados
@@ -113,7 +113,7 @@ soloAdultos: `〘⛔〙Los comandos para adultos estan prohibidos, pero si eres 
 Llamada: `〘😀〙Hola participante:`
 LlamadaB: `las llamadas`
 LlamadaC: `las video llamadas`
-LlamadaD: `no estan permitidos realizarse, debido a que puede dañar el bot, seras bloqueado.\n\nSi en caso de un error, contacta con este numero para apelar el sucedido:
+LlamadaD: `no estan permitidos realizarse, debido a que puede dañar el bot, seras bloqueado.\n\nSi en caso de un error, contacta con este numero para apelar el sucedido:`
 
 //No permitidos
 NumeroRaro: `〘⛔〙Los numeros raros no estan permitidos en este grupo, seras eliminado de inmediato.`
@@ -215,8 +215,8 @@ fBotonCopy: `Copiar`
 
 //Cambios con exito
 cfotoExito: `*「✅」Se ha cambiado la foto del bot exitosamente!!!*`
-cgrupoExito: `*「✅」Se ha cambiado la foto del grupo exitosamente!!!*
-cbioExito: `*「✅」Se ha cambiado la biografia del bot exitosamente!!!*
+cgrupoExito: `*「✅」Se ha cambiado la foto del grupo exitosamente!!!*`
+cbioExito: `*「✅」Se ha cambiado la biografia del bot exitosamente!!!*`
 ctextoExito: `*「✅」Se ha cambiado el texto del comando exitosamente!!!*
 ccomandoExito: `*「✅」Se ha configurado el comando exitosamente!!!*`
 cconfigExitoA: `*「✅」Comando configurado exitosamente!!!*`
@@ -456,7 +456,7 @@ pluErrorD: `*🛑 ERROR:*`
 
 //text ser bot
 textSubA: `SUBBOT QR - ExoticoBot-MD`
-textSubDa `©By: MultiBot-MD
+textSubDa `©By: MultiBot-MD`
 textSubB: `SUBBOTCODE - ExoticoBot-MD`
 textUno: `╭❲1️⃣❳╯ Ingrese a WhatsApp y presioné los 3 puntos ubicados en la parte superior de WhatsApp.`
 textDos: `╭❲2️⃣❳╯ Seleccione la opcion de *Dispositivos Vinculados*`
@@ -496,7 +496,7 @@ serbotClear: (usedPrefix) => `╭❲🛑❳╯ Vinculo cerrado, tendra que volve
 serbotserver: `╭❲🔄❳╯ Conexion perdida con el servidor, reconectando el bot...`
 
 //Serbot opciones
-sesionSubBot: (usedPrefix) `╭❲❕❳╯ Si no eres un Sub Bot, contactate al bot oficial para ser un Sub Bot usando el comando:\n\n• ${usedPrefix}exoticoqr : para pedir un QR\n\n• ${usedPrefix}exotico --code : para pedir un codigo de 8 dígitos.
+sesionSubBot: (usedPrefix) `╭❲❕❳╯ Si no eres un Sub Bot, contactate al bot oficial para ser un Sub Bot usando el comando:\n\n• ${usedPrefix}exoticoqr : para pedir un QR\n\n• ${usedPrefix}exotico --code : para pedir un codigo de 8 dígitos.`
 sesionClear: `╭❲✅❳╯ Sesion cerrada con el bot principal con exito!!`
 sesionError: `╭❲❌❳╯ Ocurrio un error al eliminar la sesion de *SubBot* intentalo de nuevo por favor.`
 sesionPrivate: `╭❲🛑❳╯ Para eliminar la sesion de *SubBot* debes ir al numero principal del bot...`
@@ -572,7 +572,7 @@ Colaborador: `Colaborador:`
 Colaboradores: `Colaboradores:`
 Si: `Si`
 No: `No`
-TalVez: `Tal vez'
+TalVez: `Tal vez`
 porEjemplo: `Por ejemplo:`
 Expiracion: `Expiracion:`
 Acortado: `Acortado:`
