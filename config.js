@@ -6,7 +6,7 @@ import cheerio from "cheerio"
 import fetch from "node-fetch"
 import axios from "axios"
 import moment from "moment-timezone"
-import { es } from "./Tag_ID/ID-exotic.js"
+import { es } from "./Tag_ID/IDexotico.js"
 
 global.wm = "⬩ٜ࣭݊𑁍ٜ࣭݊⬩𝇏𝆺𝅥𝙀𝙭𝆭𝙤𝙩𝙞𝙘๋𝆭𝙤⬩𝘽𝆭𝙤𝙩ە𝙈𝘿𝆹𝅥𝇏⬩ٜ࣭݊𑁍ٜ࣭݊⬩"
 global.igfg = "🧧 𝘌𝘹𝘰𝘵𝘪𝘤𝘰𝘉𝘰𝘵-𝘔𝘋 🧧"
