@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   if (!text) throw te
   let user = global.db.data.users[m.sender]
    if (args[0] === "es") {
-       user.ExoticoLang = args[0]
+       user.language = args[0]
        m.reply("*Español Seleccionado*\n\nAhora el bot responderá a su mensaje en Español")
       } else {
        m.reply(te)
