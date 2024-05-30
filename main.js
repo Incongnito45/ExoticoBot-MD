@@ -139,7 +139,7 @@ let lineM = '──────────────'
 opcion = await question(`SELECCIONE UNA OPCION:\n\n1: Vincular con el codigo QR\n2: Vincular con el codigo de 8 dígitos.\n
 \n${chalk.bold.magentaBright('---> ')}`)
 if (!/^[1-2]$/.test(opcion)) {
-console.log(chalk.bold.redBright(`Solo se admite seleccionar una opcion, sea el 1 o el 2.`))
+console.log(chalk.bold.redBright(`Solo se admite seleccionar una opcion, sea el 1 o el 2.\n`))
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
@@ -160,7 +160,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Exotico Bot', 'Edge', '2.0.0'] : methodCodeQR ? ['Exotico Bot', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
+browser: opcion == '1' ? ['ExoticoBot-MD', 'Edge', '2.0.0'] : methodCodeQR ? ['ExoticoBot-MD', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -189,7 +189,7 @@ if (!!phoneNumber) {
 addNumber = phoneNumber.replace(/[^0-9]/g, '')
 } else {
 do {
-phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`Ingrese un numero con el código internacional, por ejemplo: +5493873687620`)))
+phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`Ingrese un numero con el código internacional, por ejemplo: +5493873687620\n`)))
 phoneNumber = phoneNumber.replace(/\D/g,'')
 } while (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v)))
 rl.close()
@@ -198,7 +198,7 @@ addNumber = phoneNumber.replace(/\D/g, '')
 setTimeout(async () => {
 let codeBot = await conn.requestPairingCode(addNumber)
 codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
-console.log(chalk.bold.white(chalk.bgMagenta(`CODIGO DE VINCULACIÓN:`)), chalk.bold.white(chalk.white(codeBot)))
+console.log(chalk.bold.white(chalk.bgGreen(`CODIGO DE VINCULACIÓN:`)), chalk.bold.white(chalk.white(codeBot)))
 }, 2000)
 }}}
 }
@@ -298,14 +298,14 @@ conn.ev.off('creds.update', conn.credsUpdate);
 }
 
 //Información para Grupos
-conn.welcome = `${IDexotic.mainLog}${IDexotic.mainUserB} @user ${IDexotic.mainBotWell} @subject ${IDexotic.mainBotWelll}${String.fromCharCode(8206).repeat(850)}\n@desc`
-conn.bye = `${IDexotic.mainLog}${IDexotic.mainUserA} @user ${IDexotic.mainBotBye} @user`
-conn.spromote = `${IDexotic.mainLog}${IDexotic.mainUserA} @user ${IDexotic.mainBotPromote}`
-conn.sdemote = `${IDexotic.mainLog}${IDexotic.mainUserA} @user ${IDexotic.mainBotDemote}` 
-conn.sDesc = `${IDexotic.mainLog}${IDexotic.mainUserA} @user ${IDexotic.mainBotDescrip} @desc`
-conn.sSubject = `${IDexotic.mainLog}${IDexotic.mainUserA} @user ${IDexotic.mainBotName} @subject`
-conn.sIcon = `${IDexotic.mainLog}${IDexotic.mainBotFoto}` 
-conn.sRevoke = `${IDexotic.mainLog}${IDexotic.mainBotLink} @revoke` 
+conn.welcome = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮🎉❯ 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤(𝙖) @user\n𝙜𝙧𝙖𝙘𝙞𝙖𝙨 𝙥𝙤𝙧 𝙚𝙨𝙩𝙖𝙧 𝙖𝙦𝙪𝙞.\n\n⎔ GRUPO: @subject\n\n❮🍁❯ 𝙇𝙚𝙖 𝙡𝙖 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤:\n${String.fromCharCode(8206).repeat(850)}\n@desc`
+conn.bye = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮👋🏻❯ 𝘼𝙙𝙞𝙤𝙨 𝙪𝙨𝙪𝙖𝙧𝙞𝙤(𝙖): @user\n\n• No te extrañaremos.`
+conn.spromote = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮🐦‍🔥❯ 𝙉𝙪𝙚𝙫𝙤 𝙖𝙙𝙢𝙞𝙣 𝙖𝙨𝙞𝙜𝙣𝙖𝙙𝙤 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤!!!\n\n⎕ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢: @user`
+conn.sdemote = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•\n│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n│⌑┃ ⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐\n│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ\n╰────────────────────────•\n\n❮🐦‍🔥❯ 𝙉𝙪𝙚𝙫𝙤 𝙖𝙙𝙢𝙞𝙣 𝙙𝙚𝙨𝙘𝙖𝙧𝙩𝙖𝙙𝙤(𝙖) 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤!!!\n\n⎕ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢: @user` 
+conn.sDesc = `❪👥ฺ࣭࣪͘ꕸ▸ 𝙎𝙚 𝙝𝙖 𝙘𝙖𝙢𝙗𝙞𝙖𝙙𝙤 𝙡𝙖 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤, 𝙡𝙖 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨: @desc`
+conn.sSubject = `❪🌎ฺ࣭࣪͘ꕸ▸ 𝙎𝙚 𝙝𝙖 𝙘𝙖𝙢𝙗𝙞𝙖𝙙𝙤 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤, 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨: @subject`
+conn.sIcon = `❪🌆ฺ࣭࣪͘ꕸ▸ 𝙎𝙀 𝙃𝘼 𝘾𝘼𝙈𝘽𝙄𝘼𝘿𝙊 𝙇𝘼 𝙁𝙊𝙏𝙊 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊` 
+conn.sRevoke = `❪🌐ฺ࣭࣪͘ꕸ▸ 𝙎𝙚 𝙝𝙖 𝙧𝙚𝙨𝙩𝙖𝙗𝙡𝙚𝙘𝙞𝙙𝙤 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚 𝙜𝙧𝙪𝙥𝙖𝙡, 𝙚𝙡 𝙚𝙣𝙡𝙖𝙘𝙚 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨: @revoke` 
 
 conn.handler = handler.handler.bind(global.conn);
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
