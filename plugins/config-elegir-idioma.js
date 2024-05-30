@@ -6,9 +6,6 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
    if (args[0] === "es") {
        user.ExoticoLang = args[0]
        m.reply("*Español Seleccionado*\n\nAhora el bot responderá a su mensaje en Español")
-      } else if (args[0] === "en") {
-       user.ExoticoLang = args[0]
-       m.reply("*Selected English*\n\nNow the bot will reply to your message in English")
       } else {
        m.reply(te)
      }
