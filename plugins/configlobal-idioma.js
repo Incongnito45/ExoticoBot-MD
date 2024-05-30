@@ -1,8 +1,8 @@
-import { es } from '../ExoticoLang/index.js'
+import { es } from '../language/index.js'
 
 export async function before(m,{ conn }) {
 
-	let lang = global.db.data.users[m.sender].ExoticoLang
+	let lang = global.db.data.users[m.sender].language
 	
   let translations
    if (lang === "es") {
