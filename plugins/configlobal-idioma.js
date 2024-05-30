@@ -1,4 +1,4 @@
-import { en, es } from '../ExoticoLang/index.js'
+import { es } from '../ExoticoLang/index.js'
 
 export async function before(m,{ conn }) {
 
@@ -7,8 +7,6 @@ export async function before(m,{ conn }) {
   let translations
    if (lang === "es") {
       translations = es
-     } else if (lang === "en") {
-      translations = en
      } else {
       translations = es
      }
