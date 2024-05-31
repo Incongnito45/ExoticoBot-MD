@@ -69,5 +69,5 @@ const eCDragon = () => { return '🐉🥩 Comida de Dragón' }
 const eACaballo = () => { return '🐎🥩 Alimentos Para Caballo' }
 const eCFenix = () => { return '🕊️🥩 Comida de Fénix' } 
 
-export default { esms, eCFenix, eACaballo}
+export default { esms,eCFenix,eACaballo}
   
