@@ -18,7 +18,7 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Exotico\nBot\nMD', {
 font: 'block',
 align: 'center',
-colors: ['system', 'cyanBright']
+colors: ['cyan', 'whiteBright']
 })
 say(`Creado por: MultiBot-OFC`, {
 font: 'console',
