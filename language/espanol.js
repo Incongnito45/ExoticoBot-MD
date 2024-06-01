@@ -8,8 +8,8 @@ const eEsmeralda = () => { return '💚 Esmeralda' }
 const eJoya = () => { return '♦️ Joya' }
 const eMagia = () => { return '🌀 Magia' } 
 const eOro = () => { return '👑 Oro' } 
-const eGataCoins = () => { return '🐱 GataCoins' }
-const eGataTickers = () => { return '🎫 Gata Tickers' } 
+const eBotCoins = () => { return '🪙 BotCoins' }
+const eBotTickers = () => { return '🎫 Bot Tickers' } 
 const eEnergia = () => { return '✨ Energía' }
 const ePocion = () => { return '🥤 Poción' }
 const eAgua = () => { return '💧 Agua' }
@@ -69,5 +69,5 @@ const eCDragon = () => { return '🐉🥩 Comida de Dragón' }
 const eACaballo = () => { return '🐎🥩 Alimentos Para Caballo' }
 const eCFenix = () => { return '🕊️🥩 Comida de Fénix' } 
 
-export default { esms, eCFenix, eACaballo, eCDragon, eCMagica, eCAve, eCCentauro, eAMascots, ePerro, eLobo, eFenix, eCaballo, eZorro, eDragon, eGato, eAve, eCentauro, eSPlatano, eSMango, eSNaranja, eManzana, eUva, eClegendaria, eCJardineria, eCMascota, eCMistica, ePComun, eCComun, eCanaPescar, eGancho, ePinata, eBillete, eCarnada, eEspada, eMaderaG, eLoboG, eBasuraG, eZorroG, eOroComun, eBarraOro, eEletric, eCarton, eLata, eBotella, eCarbon, eHierro, eCuerda, ePiedra, eRoca, eMadera, eBasura, eAgua, ePocion, eEnergia, eGataTickers, eGataCoins, eOro, eMagia, eJoya, eEsmeralda, eToken, eDiamantePlus, eDiamante, eExp }
+export default { esms, eCFenix, eACaballo, eCDragon, eCMagica, eCAve, eCCentauro, eAMascots, ePerro, eLobo, eFenix, eCaballo, eZorro, eDragon, eGato, eAve, eCentauro, eSPlatano, eSMango, eSNaranja, eManzana, eUva, eClegendaria, eCJardineria, eCMascota, eCMistica, ePComun, eCComun, eCanaPescar, eGancho, ePinata, eBillete, eCarnada, eEspada, eMaderaG, eLoboG, eBasuraG, eZorroG, eOroComun, eBarraOro, eEletric, eCarton, eLata, eBotella, eCarbon, eHierro, eCuerda, ePiedra, eRoca, eMadera, eBasura, eAgua, ePocion, eEnergia, eBotTickers, eBotCoins, eOro, eMagia, eJoya, eEsmeralda, eToken, eDiamantePlus, eDiamante, eExp }
   
