@@ -20,7 +20,7 @@ global.owner = [["5493873232221", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱
 global.mods = []
 global.prems = []
 
-global.esmsEB = es
+global.esmsMT = es
 
 global.obtenerQrWeb = 0; 
 global.keepAliveRender = 0; 
@@ -128,8 +128,8 @@ emoticon(string) {
 string = string.toLowerCase();
 let emot = {
 level: '🧬 Nivel : Level',
-limit: IDexotic.eDiamante,
-exp: IDexotic.eExp,
+limit: esmsMT.eDiamante(),
+exp: esmsMT.eExp(),
 bank: '🏦 Banco : Bank',
 diamond: IDexotic.eDiamantePlus,
 health: '❤️ Salud : Health',
