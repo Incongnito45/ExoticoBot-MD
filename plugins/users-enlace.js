@@ -7,7 +7,7 @@ let group = m.chat
 
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
 let fsizedoc = '1'.repeat(10)
-let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: IDexotic.botNombre, body: packname, mediaUrl: exoticoAll, description: IDexotic.botInfo, previewType: 'PHOTO', thumbnail: await(await fetch(menusRB)).buffer(), sourceUrl: exoticoAll }}}
+let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: 'LINK GRUPAL', body: packname, mediaUrl: exoticoAll, description: 'WhatsApp Bot', previewType: 'PHOTO', thumbnail: await(await fetch(multiMenus)).buffer(), sourceUrl: exoticoAll }}}
 
 try{
 await conn.sendButton(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), '᥀·࣭࣪̇˖🪐◗ 𝙀𝙣𝙡𝙖𝙘𝙚 𝙜𝙧𝙪𝙥𝙖𝙡. ⬆️', pp, [['𝙀𝙨𝙩𝙖𝙙𝙤 🎉', `${usedPrefix}estado`]], null, null, fkontak, adReply)
