@@ -1,7 +1,7 @@
 let handler = async (m, { isPrems, conn }) => {
 let time = global.db.data.users[m.sender].lastcofre + 0 
 if (new Date - global.db.data.users[m.sender].lastcofre < 0) throw `Failed.... Again.`
-let img = 'https://img.freepik.com/vector-gratis/cofre-monedas-oro-piedras-preciosas-cristales-trofeo_107791-7769.jpg?w=2000'
+let img = 'https://telegra.ph/file/516ff7b7c47cbf5b58a38.png'
 let diamantes = Math.floor(Math.random() * 30)
 let tokbot = Math.floor(Math.random() * 10)
 let exotico = Math.floor(Math.random() * 4000)
@@ -28,6 +28,7 @@ handler.help = ['daily']
 handler.tags = ['xp']
 handler.command = ['abrirpaquete', 'verpaquete'] 
 handler.exoticopaquete = 1
+handler.private = true
 export default handler
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]}
