@@ -407,13 +407,22 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
 }
-await conn.reply(m.chat, `OPCION: ${type} 
+await conn.reply(m.chat, `
+╭• •┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈• •─• ⧐
+┃᥀·࣭࣪̇˖☄️◗ 𝗢𝗣𝗖𝗜𝗢𝗡: ${type} 
+╰• •┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈• •─• ⧐`, fkontak, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: `𝗖𝗢𝗠𝗔𝗡𝗗𝗢: ${isEnable ? '𝖠𝖢𝖳𝖨𝖵𝖠𝖣𝖮 ✅' : ' 𝖣𝖤𝖲𝖠𝖢𝖳𝖨𝖵𝖠𝖣𝖮 ⛔'}`,
+body: `𝗣𝗔𝗥𝗔: ${isAll ? '𝖤𝗑𝗈𝗍𝗂𝖼𝗈𝖡𝗈𝗍-𝖬𝖣 🤖' : isUser ? '' : '𝖤𝖲𝖳𝖤 𝖢𝖧𝖠𝖳 💬'}`, previewType: 0, thumbnail: imagenRB, sourceUrl: global.exoticoAll}}})} 
+
+/* OPCION: ${type} 
 COMANDO: ${isEnable ? IDexotic.actividadA : IDexotic.actividadB}
 PARA: ${isAll ? IDexotic.ParaChatB : isUser ? '' : IDexotic.ParaChatG}`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: IDexotic.botInfo,
 body: IDexotic.botDescrip, previewType: 0, thumbnail: imagenRB, sourceUrl: global.md}}})} 
-
+*/
+	
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i;
