@@ -31,7 +31,7 @@ global.mycanal = 'https://whatsapp.com/channel/0029Vaf8ZxlLdQelKKUUON22'
 
 global.exoticoRedes = [md, paypal, paypal, md, paypal, atomofc, atomofc, mycanal, mycanal, md, asistencia, asistencia].getRandom()
 global.exoticCnts = [mycanal, grupo1, atomofc, atomofc, grupo2, grupo3, md, paypal, asistencia, creador, md].getRandom()
-global.exoticoAll = [mycanal, asistencia, grupo1, grupo2, grupo3, mycanal, atomofc, atomofc, paypal, fb, md, asistencia].getRandom()
+global.exoticoAll = [asistencia, atomofc, atomofc, paypal, md, asistencia].getRandom()
 
 // Imágenes 
 global.imagen1 = fs.readFileSync("./Multi_Imagen/Menu3.jpg")
@@ -187,7 +187,7 @@ const estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ..
 let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 99, status: 1, surface: 1, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
 let fgif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Multi_Imagen/Menu3.jpg')}}}
                              
-let enlace = { contextInfo: { externalAdReply: {title: wm, body: IDexotic.botInfo, sourceUrl: exoticoAll, thumbnail: await(await fetch(global.imgRB)).buffer() }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm, body: 'WhatsApp bot / MultiBot', sourceUrl: exoticoAll, thumbnail: await(await fetch(global.imgRB)).buffer() }}}
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: paypal, mediaType: 'VIDEO', description: '', title: wm, body: ' • ExoticoBot-MD / Multi Bot • ', thumbnailUrl: menusRB, sourceUrl: exoticoAll }}}
 let dos = [enlace, enlace2]  
 
