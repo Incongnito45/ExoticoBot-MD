@@ -14,7 +14,7 @@ global.db.data.users[m.sender].exp += expp
 global.db.data.users[m.sender].exoticocoins += exocoins  
 let texto = `꧁『🎊 PAQUETE ABIERTO 🎊』꧂
 
-「☁️」*${exocoins}* 𝙎𝙚𝙧𝙫𝙚𝙧𝘾𝙤𝙞𝙣𝙨.
+「☁️」 *${exocoins}* 𝙎𝙚𝙧𝙫𝙚𝙧𝘾𝙤𝙞𝙣𝙨.
 •══════════════•
 「💰」 *${tokbot}* 𝙏𝙤𝙠𝙚𝙣𝙨.
 「💎」 *${diamantes}* 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨.
