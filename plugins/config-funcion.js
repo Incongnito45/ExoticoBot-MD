@@ -2,7 +2,77 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-  const optionsFull = `᥀·࣭࣪̇˖🌌◗ 𝙉𝙤 𝙙𝙞𝙨𝙥𝙤𝙣𝙞𝙗𝙡𝙚...`.trim();
+  const optionsFull = `
+  ╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─•
+│⌑╔•  •───────────────•  •╗
+│⌑║ \`𝐎𝐏𝐂𝐈𝐎𝐍 𝐎𝐍 𝐘 𝐎𝐅𝐅\`
+│⌑╚•  •───────────────•  •╝
+│⌑┏┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ
+│⌑┃⌕
+│⌑┃ *_${usedPrefix}on welcome_*
+│⌑┃ *_${usedPrefix}on detect_*
+│⌑┃ *_${usedPrefix}on antidelete_*
+│⌑┃ *_${usedPrefix}on public_*
+│⌑┃ *_${usedPrefix}on antilink_*
+│⌑┃ *_${usedPrefix}on antilink2_*
+│⌑┃ *_${usedPrefix}on modohorny_*
+│⌑┃ *_${usedPrefix}on stickers_*
+│⌑┃ *_${usedPrefix}on game_*
+│⌑┃ *_${usedPrefix}on game2_*
+│⌑┃ *_${usedPrefix}on temporal_*
+│⌑┃ *_${usedPrefix}on autolevelup_*
+│⌑┃ *_${usedPrefix}on autosticker_*
+│⌑┃ *_${usedPrefix}on reaction_*
+│⌑┃ *_${usedPrefix}on antitoxic_*
+│⌑┃ *_${usedPrefix}on audios_*
+│⌑┃ *_${usedPrefix}on antiver_*
+│⌑┃ *_${usedPrefix}on antifake_*
+│⌑┃ *_${usedPrefix}on serbot_*
+│⌑┃ *_${usedPrefix}on restrict_*
+│⌑┃ *_${usedPrefix}on antiporno_*
+│⌑┃ *_${usedPrefix}on autoread_*
+│⌑┃ *_${usedPrefix}on autoread2_*
+│⌑┃ *_${usedPrefix}on antillamar_*
+│⌑┃ *_${usedPrefix}on antispam_*
+│⌑┃ *_${usedPrefix}on modoadmin_*
+│⌑┃ *_${usedPrefix}on pconly_*
+│⌑┃ *_${usedPrefix}on gconly_*
+│⌑┃ *_${usedPrefix}on antiprivado_*
+│⌑┃ *_${usedPrefix}on modoia_*
+│⌑┃•┈┈┈┈┈┈┈┈┈┈┈┈┈┈•
+│⌑┃ *_${usedPrefix}off welcome_*
+│⌑┃ *_${usedPrefix}off detect_*
+│⌑┃ *_${usedPrefix}off antidelete_*
+│⌑┃ *_${usedPrefix}off public_*
+│⌑┃ *_${usedPrefix}off antilink_*
+│⌑┃ *_${usedPrefix}off antilink2_*
+│⌑┃ *_${usedPrefix}off modohorny_*
+│⌑┃ *_${usedPrefix}off stickers_*
+│⌑┃ *_${usedPrefix}off game_*
+│⌑┃ *_${usedPrefix}off game2_*
+│⌑┃ *_${usedPrefix}off temporal_*
+│⌑┃ *_${usedPrefix}off autolevelup_*
+│⌑┃ *_${usedPrefix}off autosticker_*
+│⌑┃ *_${usedPrefix}off reaction_*
+│⌑┃ *_${usedPrefix}off antitoxic_*
+│⌑┃ *_${usedPrefix}off audios_*
+│⌑┃ *_${usedPrefix}off antiver_*
+│⌑┃ *_${usedPrefix}off antifake_*
+│⌑┃ *_${usedPrefix}off serbot_*
+│⌑┃ *_${usedPrefix}off restrict_*
+│⌑┃ *_${usedPrefix}off antiporno_*
+│⌑┃ *_${usedPrefix}off autoread_*
+│⌑┃ *_${usedPrefix}off autoread2_*
+│⌑┃ *_${usedPrefix}off antillamar_*
+│⌑┃ *_${usedPrefix}off antispam_*
+│⌑┃ *_${usedPrefix}off modoadmin_*
+│⌑┃ *_${usedPrefix}off pconly_*
+│⌑┃ *_${usedPrefix}off gconly_*
+│⌑┃ *_${usedPrefix}off antiprivado_*
+│⌑┃ *_${usedPrefix}off modoia_*
+│⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ
+╰─────────────────────•
+  `.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
