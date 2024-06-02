@@ -17,7 +17,7 @@ out = await ffmpeg(media, [
 '-shortest'
 ], 'mp3', 'mp4')
 }
-await conn.sendFile(m.chat, out, 'error.mp4', IDexotic.aquiResultado, m, 0, { thumbnail: out })
+await conn.sendFile(m.chat, out, 'error.mp4', 'ExoticoBot-MD / Convertidor de Stickers', m, 0, { thumbnail: out })
 }
 handler.help = ['tovideo']
 handler.tags = ['sticker']
