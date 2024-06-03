@@ -1,3 +1,6 @@
+<!-- GIF HEADER -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/banner-header.gif">
+
 [![Menu2.png](https://i.postimg.cc/mgv6kbv1/Menu2.png)](https://postimg.cc/gxKKBPkG)
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -53,3 +56,14 @@ npm start
 - [x]  SERVIDOR <details><summary>Screenshot</summary><img src="https://telegra.ph/file/83de1a7d5449c4e55cf90.jpg"></details>
 - [COMPRA AQUI](https://wa.me/c/5493873232212)
 ------------------
+
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+<div align="center">
+  <h1 align="center"> <img src="https://telegra.ph/file/ced2b60b1de9c4a80d70d.jpg" width="30"> CREADOR:
+
+<a href="https://github.com/MultiBot-OFC"><img src="https://github.com/MultiBot-OFC.png" width="300" height="300" alt="CreadorOfc"/></a>
+
+<!-- GIF FOOTER -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/banner-footer.gif">
