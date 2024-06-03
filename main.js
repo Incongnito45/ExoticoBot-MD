@@ -1,6 +1,6 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './config.js' 
-import './plugins/_random-info.js'
+import './EXOTICO/conexion/archivo.js'
 import { createRequire } from 'module'
 import path, { join } from 'path'
 import {fileURLToPath, pathToFileURL} from 'url'
@@ -234,7 +234,7 @@ if (opcion == '1' || methodCodeQR) {
 console.log(chalk.bold.green(`Escanea el codigo QR, expira en 45 segundos...`))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.greenBright(IDexotic.smsConsoleA))}
+console.log(chalk.bold.greenBright('☁️ Conectando...'))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (reason == 405) {
 await fs.unlinkSync("./ExoticoBotSession/" + "creds.json")
