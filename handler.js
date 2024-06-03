@@ -6,7 +6,7 @@ import path, { join } from 'path'
 import { unwatchFile, watchFile } from 'fs'
 import chalk from 'chalk'   
 import fetch from 'node-fetch'
-import './plugins/_random-info.js'
+import './EXOTICO/conexion/archivos.js'
  
 /**
  * @type {import('@adiwajshing/baileys')}  
