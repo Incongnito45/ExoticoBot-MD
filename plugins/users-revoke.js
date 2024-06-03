@@ -1,4 +1,4 @@
-export async function before(m,  {conn, participants, isBotAdmin}) {
+export async function before(m,  {conn, participants, isBotAdmin, usedPrefix}) {
     let grupo_completo = participants;
     let administrador = false;
     try{
@@ -14,7 +14,7 @@ export async function before(m,  {conn, participants, isBotAdmin}) {
         }
     }catch{
     }
-    if(m.text.toLowerCase() === "reset"){
+    if(m.text.toLowerCase() === usedPrefix+"reset"){
       if(isBotAdmin){
         if(administrador){
           await this.groupInviteCode(m.chat);
