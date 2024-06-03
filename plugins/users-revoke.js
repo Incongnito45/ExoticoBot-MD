@@ -1,3 +1,4 @@
+/*
 export async function before(m,  {conn, participants, isBotAdmin, usedPrefix}) {
     let grupo_completo = participants;
     let administrador = false;
@@ -27,3 +28,4 @@ export async function before(m,  {conn, participants, isBotAdmin, usedPrefix}) {
       }
     }
 }
+*/
