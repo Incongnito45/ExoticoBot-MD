@@ -1,4 +1,7 @@
- 
+[![Menu2.png](https://i.postimg.cc/mgv6kbv1/Menu2.png)](https://postimg.cc/gxKKBPkG)
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
 <p align="center"> 
 <img src="https://komarev.com/ghpvc/?username=MultiBot-OFC&color=brightgreen" />
 <p/>
@@ -22,6 +25,7 @@
 ### ⬇️ `INSTALACIONES` ⬇️
 ------------------
 - [x] TERMUX <details><summary>Screenshot</summary><img src="https://telegra.ph/file/871cdbf5c32e535255941.jpg"></details>
+[INSTALAR TERMUX](https://f-droid.org/repo/com.termux_118.apk)
 ```bash
 termux-setup-storage && apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn && git clone https://github.com/MultiBot-OFC/ExoticoBot-MD && cd ExoticoBot-MD && yarn install && npm install
 ```
@@ -32,6 +36,7 @@ npm start
 
 
 - [x] CLOUD SHELL <details><summary>Screenshot</summary><img src="https://telegra.ph/file/f2bfc2c7fb56f1efaa387.jpg"></details>
+[CLINK](https://shell.cloud.google.com/?show=ide%2Cterminal&authuser=6&fromcloudshell=true)
 ```bash
 git clone https://github.com/MultiBot-OfC/ExoticoBot-MD && cd ExoticoBot-MD && yarn install && npm install
 ```
