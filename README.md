@@ -9,7 +9,7 @@
 <img src="https://komarev.com/ghpvc/?username=MultiBot-OFC&color=brightgreen" />
 <p/>
 <p align="center">
-<a href="https://github.com/MultiBot-OFC"><img title="Author" src="https://img.shields.io/badge/Exotico Bot MD-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://wa.me/5493873232212"><img title="Author" src="https://img.shields.io/badge/Exotico Bot MD-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/MultiBot-OFC?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/MultiBot-OFC?label=Followers&style=social"></a>
@@ -56,6 +56,17 @@ npm start
 - [x]  SERVIDOR <details><summary>Screenshot</summary><img src="https://telegra.ph/file/83de1a7d5449c4e55cf90.jpg"></details>
 - [COMPRA AQUI](https://wa.me/c/5493873232212)
 ------------------
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+
+<img src="https://telegra.ph/file/dc3f11a37f6b8c67dc7db.jpg" width="20"> `WhatsApp para contactar` <img src="https://telegra.ph/file/dc3f11a37f6b8c67dc7db.jpg" width="20">
+
+[![WhatsApp](https://img.shields.io/badge/Creador-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5493873232212) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
+
+[![WhatsApp](https://img.shields.io/badge/Asistencia-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5493873232221) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
+
+[![WhatsApp](https://img.shields.io/badge/Ramon-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/523142183828) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
