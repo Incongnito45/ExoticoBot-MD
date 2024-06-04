@@ -113,7 +113,7 @@ global.official = [
 ]
 
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
-//𝘓𝘦𝘯𝘨𝘶𝘢𝘫𝘦 𝘣𝘦𝘵𝘢, 𝘤𝘰𝘥𝘪𝘨𝘰 𝘥𝘦 𝘎𝘢𝘵𝘢𝘕𝘪𝘯𝘢-𝘓𝘪
+//Simple
 global.esmsMT = es
 global.mail = ''
 global.desc = '' 
