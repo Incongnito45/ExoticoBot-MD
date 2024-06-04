@@ -6,25 +6,35 @@ import cheerio from "cheerio"
 import fetch from "node-fetch"
 import axios from "axios"
 import moment from "moment-timezone"
-import { es } from "./language/index.js"
+import { es } from "./language/index.js" 
 
-global.wm = "⬩ٜ࣭݊𑁍ٜ࣭݊⬩𝇏𝆺𝅥𝙀𝙭𝆭𝙤𝙩𝙞𝙘๋𝆭𝙤⬩𝘽𝆭𝙤𝙩ە𝙈𝘿𝆹𝅥𝇏⬩ٜ࣭݊𑁍ٜ࣭݊⬩"
-global.igfg = "🧧 𝘌𝘹𝘰𝘵𝘪𝘤𝘰𝘉𝘰𝘵-𝘔𝘋 🧧"
-global.nomorown = "5493873232221"
-global.gt = "🌌 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 🌌"
-global.packname = `𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿`
-global.author = `𝙈𝙪𝙡𝙩𝙞𝘽𝙤𝙩-𝙊𝙁𝘾`
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘌𝘳𝘳𝘰𝘳𝘦𝘴 𝘮𝘦𝘯𝘴𝘪𝘰𝘯𝘢𝘥𝘰𝘴.
+global.errorAB = '᥀·࣭࣪̇˖⚠️◗ 𝙀𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙝𝙖 𝙛𝙖𝙡𝙡𝙖𝙙𝙤 𝙥𝙤𝙧 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤, 𝙧𝙚𝙥𝙤𝙧𝙩𝙖𝙡𝙤 𝙖𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧 𝙙𝙚𝙡 𝙗𝙤𝙩.'
+global.errorBB = '᥀·࣭࣪̇˖❌◗ 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 𝙚𝙧𝙧𝙤𝙣𝙚𝙤, 𝙞𝙣𝙩𝙚𝙣𝙩𝙖𝙡𝙤 𝙙𝙚 𝙣𝙪𝙚𝙫𝙤.'
 
-global.owner = [["5493873232221", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩', true], ["5493873232212", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩 2', true], ["15108672308"], ["51929838430"], ["529982147937"], ["5491125730852"], ["573108625104"], ["527421168105"], ["5491133979238"]]
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
+global.cheerio = cheerio
+global.fs = fs
+global.fetch = fetch
+global.axios = axios
+global.moment = moment
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
 global.mods = []
 global.prems = []
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
 global.obtenerQrWeb = 0; 
 global.keepAliveRender = 0; 
 global.botNumberCode = ""
 global.confirmCode = "" 
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘈𝘱𝘪 𝘒𝘦𝘺𝘴
 global.Key360 = ["Gata_Dios"] 
 global.openai_key = 'sk-0' // Api New: https://platform.openai.com/account/api-keys 
 global.openai_org_id = 'org-3' // Api New: https://platform.openai.com/account/org-settings */
@@ -68,27 +78,56 @@ global.APIKeys = {
 'https://api.itsrose.site': 'Rs-Zeltoria',
 'https://api-xcoders.site': 'Frieren'
 }
-global.cheerio = cheerio
-global.fs = fs
-global.fetch = fetch
-global.axios = axios
-global.moment = moment
 
-global.official = [["5493873232221", 'ExoticoBot : 𝘊𝘳𝘦𝘢𝘥𝘰𝘳', 1], ["5493873232212", 'ExoticoBot : 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 2', 1]]
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘕𝘰𝘮𝘣𝘳𝘦 𝘥𝘦𝘭 𝘣𝘰𝘵.
+global.wm = "⬩ٜ࣭݊𑁍ٜ࣭݊⬩𝇏𝆺𝅥𝙀𝙭𝆭𝙤𝙩𝙞𝙘๋𝆭𝙤⬩𝘽𝆭𝙤𝙩ە𝙈𝘿𝆹𝅥𝇏⬩ٜ࣭݊𑁍ٜ࣭݊⬩"
+global.igfg = "𝘌𝘹𝘰𝘵𝘪𝘤𝘰𝘉𝘰𝘵 / 𝘔𝘶𝘭𝘵𝘪𝘉𝘰𝘵"
+global.nomorown = "5493873232221"
+global.gt = "🌌 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 🌌"
+global.packname = `𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿`
+global.author = `𝙈𝙪𝙡𝙩𝙞𝘽𝙤𝙩-𝙊𝙁𝘾`
 
-global.errorAB = '᥀·࣭࣪̇˖⚠️◗ 𝙀𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙝𝙖 𝙛𝙖𝙡𝙡𝙖𝙙𝙤 𝙥𝙤𝙧 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤, 𝙧𝙚𝙥𝙤𝙧𝙩𝙖𝙡𝙤 𝙖𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧 𝙙𝙚𝙡 𝙗𝙤𝙩.'
-global.errorBB = '᥀·࣭࣪̇˖❌◗ 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 𝙚𝙧𝙧𝙤𝙣𝙚𝙤, 𝙞𝙣𝙩𝙚𝙣𝙩𝙖𝙡𝙤 𝙙𝙚 𝙣𝙪𝙚𝙫𝙤.'
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘖𝘸𝘯𝘦𝘳𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵, 𝘢𝘨𝘳𝘦𝘨𝘢𝘵𝘦 𝘴𝘪 𝘲𝘶𝘪𝘦𝘳𝘦𝘴.
+global.owner = [
+["5493873232221", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩', true],
+["5493873232212", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩 2', true],
+["523142183828", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩 3', true],
+["15108672308", '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙊𝙁𝘾 ╱ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩 4', true],
+["51929838430"],
+["529982147937"],
+["5491125730852"],
+["573108625104"],
+["527421168105"],
+["5491133979238"]
+]
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘊𝘰𝘯𝘵𝘢𝘤𝘵𝘰𝘴 𝘰𝘧𝘪𝘤𝘪𝘢𝘭𝘦𝘴.
+global.official = [
+["5493873232221", 'ExoticoBot : 𝘊𝘳𝘦𝘢𝘥𝘰𝘳', 1],
+["5493873232212", 'ExoticoBot : 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 2', 1]
+["523142183828", 'ExoticoBot : 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 3', 1]
+["15108672308", 'ExoticoBot : 𝘊𝘳𝘦𝘢𝘥𝘰𝘳 4', 1]
+]
+
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘓𝘦𝘯𝘨𝘶𝘢𝘫𝘦 𝘣𝘦𝘵𝘢, 𝘤𝘰𝘥𝘪𝘨𝘰 𝘥𝘦 𝘎𝘢𝘵𝘢𝘕𝘪𝘯𝘢-𝘓𝘪
 global.esmsMT = es
 global.mail = ''
 global.desc = '' 
 global.desc2 = '' 
 global.country = ''
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘝𝘦𝘳𝘴𝘪𝘰𝘯 𝘥𝘦𝘭 𝘣𝘰𝘵
 global.vs = "2.0.0"
 global.vs2 = "2.5"
 global.vs3 = "3.5.0"
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -97,6 +136,8 @@ global.flaaa = [
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='];
 
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘋𝘪𝘴𝘦𝘯̃𝘰𝘴.
 global.botDescrip = `• 𝘽𝙤𝙩 𝙙𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝘼𝙫𝙖𝙣𝙯𝙖𝙙𝙤 💯`
 global.botInfo = `⧏❪̣࣭̇࣪𝆭·ฺ۪۟𖡎𝆭｡𝆹𝅥𝘌ฺ𝙭𝆭𝙤𝘵ฺ𝘪𝘤𝆭𝙤𝘉𝆭𝙤ฺ𝙩-𝗠ฺ𝖣𝆹𝅥𖣠ᮬ𝆭·̣̇͜᭺⧐`
 global.cmenut = "┏•──•═════•𑁍 "
@@ -126,102 +167,98 @@ message: {
 'caption': bottime,
 'jpegThumbnail': fs.readFileSync('./Multi_Imagen/Menu3.jpg')
 }}}
-
+   
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰
 global.multiplier = 85
 global.rpg = {
 emoticon(string) {
 string = string.toLowerCase();
 let emot = {
-      level: '🧬 Nivel : Level',
-      limit: esmsMT.eDiamante(),
-      exp: esmsMT.eExp(),
-      bank: '🏦 Banco : Bank',
-      diamond: esmsMT.eDiamantePlus(),
-      health: '❤️ Salud : Health',
-      kyubi: esmsMT.eMagia(),
-      joincount: esmsMT.eToken(),
-      emerald: esmsMT.eEsmeralda(),
-      stamina: esmsMT.eEnergia(),
-      role: '💪 Rango | Role',
-      premium: '🎟️ Premium',
-      pointxp: '📧 Puntos Exp : Point Xp',
-      gold: esmsMT.eOro(),
-      
-      trash: esmsMT.eBasura(),
-      crystal: '🔮 Cristal : Crystal',
-      intelligence: '🧠 Inteligencia : Intelligence',
-      string: esmsMT.eCuerda(),
-      keygold: '🔑 Llave de Oro : Key Gold',
-      keyiron: '🗝️ Llave de Hierro : Key Iron',
-      emas: esmsMT.ePinata(),
-      fishingrod: '🎣 Caña de Pescar : Fishing Rod',
-      gems: '🍀 Gemas : Gemas',
-      magicwand: '⚕️ Varita Mágica : Magic Wand',
-      mana: '🪄 Hechizo : Spell',
-      agility: '🤸‍♂️ Agilidad : Agility',
-      darkcrystal: '♠️ Cristal Oscuro : Dark Glass',
-      iron: esmsMT.eHierro(),
-      rock: esmsMT.eRoca(),
-      potion: esmsMT.ePocion(),
-      superior: '💼 Superior : Superior',
-      robo: '🚔 Robo : Robo',
-      upgrader: '🧰 Aumentar Mejora : Upgrade',
-      wood: esmsMT.eMadera(),
-      
-      strength: '🦹‍ ♀️ Fuerza : Strength',
-      arc: '🏹 Arco : Arc',
-      armor: '🥼 Armadura : Armor',
-      bow: '🏹 Super Arco : Super Bow',
-      pickaxe: '⛏️ Pico : Peak',
-      sword: esmsMT.eEspada(),
-      
-      common: esmsMT.eCComun(),
-      uncoommon: esmsMT.ePComun(),
-      mythic: esmsMT.eCMistica(),
-      legendary: esmsMT.eClegendaria(),
-      petFood: esmsMT.eAMascots(), //?
-      pet: esmsMT.eCMascota(),//?
-      
-      bibitanggur: esmsMT.eSUva(),
-      bibitapel: esmsMT.eSManzana(),
-      bibitjeruk: esmsMT.eSNaranja(),
-      bibitmangga: esmsMT.eSMango(),
-      bibitpisang: esmsMT.eSPlatano(),
-      
-      ayam: '🐓 Pollo : Chicken',
-      babi: '🐖 Puerco : Pig',
-      Jabali: '🐗 Jabalí : Wild Boar',
-      bull: '🐃 Toro : Bull',    
-      buaya: '🐊 Cocodrilo : Alligator',    
-      cat: esmsMT.eGato(),    
-      centaur: esmsMT.eCentauro(),
-      chicken: '🐓 Pollo : Chicken',
-      cow: '🐄 Vaca : Cow', 
-      dog: esmsMT.ePerro(),
-      dragon: esmsMT.eDragon(),
-      elephant: '🐘 Elefante : Elephant',
-      fox: esmsMT.eZorro(),
-      giraffe: '🦒 Jirafa : Giraffe',
-      griffin: esmsMT.eAve(), //Mascota : Griffin',
-      horse: esmsMT.eCaballo(),
-      kambing: '🐐 Cabra : Goat',
-      kerbau: '🐃 Búfalo : Buffalo',
-      lion: '🦁 León : Lion',
-      money: esmsMT.eGataCoins(),
-      monyet: '🐒 Mono : Monkey',
-      panda: '🐼 Panda',
-      snake: '🐍 Serpiente : Snake',
-      phonix: '🕊️ Fénix : Phoenix',
-      rhinoceros: '🦏 Rinoceronte : Rhinoceros',
-      wolf: esmsMT.eLobo(),
-      tiger: '🐅 Tigre : Tiger',
-      cumi: '🦑 Calamar : Squid',
-      udang: '🦐 Camarón : Shrimp',
-      ikan: '🐟 Pez : Fish',
-      
-      fideos: '🍝 Fideos : Noodles',
-      ramuan: '🧪 Ingrediente NOVA : Ingredients',
-      knife: '🔪 Cuchillo : Knife'
+level: '🧬 Nivel',
+limit: '💎 Diamante',
+exp: '⚡ Experiencia',
+bank: '🏦 Banco',
+diamond: '💎+ Diamante+',
+health: '❤️ Salud',
+kyubi: '🌀 Magia',
+joincount: '🪙 Token',
+emerald: '💚 Esmeralda',
+stamina: '✨ Energía',
+role: '💪 Rango',
+premium: '🎟️ Premium',
+pointxp: '📧 Puntos Exp',
+gold: '👑 Oro',
+trash: '🗑 Basura',
+crystal: '🔮 Cristal',
+intelligence: '🧠 Inteligencia',
+string: '🕸️ Cuerda',
+keygold: '🔑 Llave de Oro',
+keyiron: '🗝️ Llave de Hierro',
+emas: '🪅 Piñata',
+fishingrod: '🎣 Caña de Pescar',
+gems: '🍀 Gemas',
+magicwand: '⚕️ Varita Mágica',
+mana: '🪄 Hechizo',
+agility: '🤸‍♂️ Agilidad',
+darkcrystal: '♠️ Cristal Oscuro',
+iron: '⛓️ Hierro',
+rock: '🪨 Roca',
+potion: '🥤 Poción',
+superior: '💼 Superior',
+robo: '🚔 Robo',
+upgrader: '🧰 Aumentar Mejora',
+wood: '🪵 Madera',
+strength: '🦹‍ ♀️ Fuerza',
+arc: '🏹 Arco',
+armor: '🥼 Armadura',
+bow: '🏹 Super Arco',
+pickaxe: '⛏️ Pico',
+sword: '⚔️ Espada',
+common: '📦 Caja Común',
+uncoommon: '🥡 Caja Poco Común',
+mythic: '🗳️ Caja Mítica',
+legendary: '🎁 Caja Legendaria',
+petFood: '🍖 Alimento para Mascota', //?
+pet: '📫 Caja de Mascotas',//?
+bibitanggur: '🌾🍇 Semillas de uva',
+bibitapel: '🌾🍎 Semillas de manzana',
+bibitjeruk: '🌾🍊 Semillas de naranja',
+bibitmangga: '🌾🥭 Semillas de Mango',
+bibitpisang: '🌾🍌 Semillas de plátano',
+ayam: '🐓 Pollo',
+babi: '🐖 Puerco',
+Jabali: '🐗 Jabalí',
+bull: '🐃 Toro',    
+buaya: '🐊 Cocodrilo',    
+cat: '🐈 Gato',    
+centaur: '🐐 Centauro',
+chicken: '🐓 Pollo',
+cow: '🐄 Vaca', 
+dog: '🐶 Perro',
+dragon: '🐉 Dragón',
+elephant: '🐘 Elefante',
+fox: '🦊 Zorro',
+giraffe: '🦒 Jirafa',
+griffin: '🦅 Ave', //Mascota : Griffin',
+horse: '🐎 Caballo',
+kambing: '🐐 Cabra',
+kerbau: '🐃 Búfalo',
+lion: '🦁 León',
+money: '🪙 BotCoins',
+monyet: '🐒 Mono',
+panda: '🐼 Panda',
+snake: '🐍 Serpiente',
+phonix: '🕊️ Fénix',
+rhinoceros: '🦏 Rinoceronte',
+wolf: '🐺 Lobo',
+tiger: '🐅 Tigre',
+cumi: '🦑 Calamar',
+udang: '🦐 Camarón',
+ikan: '🐟 Pez',
+fideos: '🍝 Fideos',
+ramuan: '🧪 Ingrediente',
+knife: '🔪 Cuchillo'
 }
 let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
 if (!results.length) return ''
@@ -322,78 +359,78 @@ if (!results.length) return '';
 else return emott[results[0][0]];
 }}
 
-global.rpgshop = { //Tienda
+global.rpgshop = { 
 emoticon(string) {
 string = string.toLowerCase();
 let emottt = {
-exp: IDexotic.eExp,
-limit: IDexotic.eDiamante,
-diamond: IDexotic.eDiamantePlus,
-joincount: IDexotic.eToken,
-emerald: IDexotic.eEsmeralda,
-berlian: IDexotic.eJoya,
-kyubi: IDexotic.eMagia,
-gold: IDexotic.eOro,
-money: IDexotic.eBotCoins,
-tiketcoin: IDexotic.eBotTickers,
-stamina: IDexotic.eEnergia,
-potion: IDexotic.ePocion,
-aqua: IDexotic.eAgua,
-trash: IDexotic.eBasura,
-wood: IDexotic.eMadera,
-rock: IDexotic.eRoca,
-batu: IDexotic.ePiedra,
-string: IDexotic.eCuerda,
-iron: IDexotic.eHierro,
-coal: IDexotic.eCarbon,
-botol: IDexotic.eBotella,
-kaleng: IDexotic.eLata,
-kardus: IDexotic.eCarton,
-eleksirb: IDexotic.eEletric,
-emasbatang: IDexotic.eBarraOro,
-emasbiasa: IDexotic.eOroComun,
-rubah: IDexotic.eZorroG,
-sampah: IDexotic.eBasuraG,
-serigala: IDexotic.eLoboG,
-kayu: IDexotic.eMaderaG,
-sword: IDexotic.eEspada,
-umpan: IDexotic.eCarnada,
-healtmonster: IDexotic.eBillete,
-emas: IDexotic.ePinata,
-pancingan: IDexotic.eGancho,
-pancing: IDexotic.eCanaPescar,      
-common: IDexotic.eCComun,
-uncoommon: IDexotic.ePComun,
-mythic: IDexotic.eCMistica,
-pet: IDexotic.eCMascota,
-gardenboxs: IDexotic.eCJardineria,
-legendary: IDexotic.eClegendaria,
-anggur: IDexotic.eUva,
-apel: IDexotic.eManzana,
-jeruk: IDexotic.eNaranja,
-mangga: IDexotic.eMango,
-pisang: IDexotic.ePlatano,
-bibitanggur: IDexotic.eSUva,
-bibitapel: IDexotic.eSManzana,
-bibitjeruk: IDexotic.eSNaranja,
-bibitmangga: IDexotic.eSMango,
-bibitpisang: IDexotic.eSPlatano,
-centaur: IDexotic.eCentauro,
-griffin: IDexotic.eAve,
-kucing: IDexotic.eGato,
-naga: IDexotic.eDragon,
-fox: IDexotic.eZorro,
-kuda: IDexotic.eCaballo,
-phonix: IDexotic.eFenix,
-wolf: IDexotic.eLobo,
-anjing: IDexotic.ePerro,
-petFood: IDexotic.eAMascots,
-makanancentaur: IDexotic.eCCentauro,
-makanangriffin: IDexotic.eCAve,
-makanankyubi: IDexotic.eCMagica,
-makanannaga: IDexotic.eCDragon,
-makananpet: IDexotic.eACaballo,
-makananphonix: IDexotic.eCFenix
+exp: '⚡ Experiencia',
+limit: '💎 Diamante',
+diamond: '💎+ Diamante+',
+joincount: '🪙 Token',
+emerald: '💚 Esmeralda',
+berlian: '♦️ Joya',
+kyubi: '🌀 Magia',
+gold: '👑 Oro',
+money: '🪙 BotCoins',
+tiketcoin: '🎫 Bot Tickers',
+stamina: '✨ Energía',
+potion: '🥤 Poción',
+aqua: '💧 Agua',
+trash: '🗑 Basura',
+wood: '🪵 Madera',
+rock: '🪨 Roca',
+batu: '🥌 Piedra',
+string: '🕸️ Cuerda',
+iron: '⛓️ Hierro',
+coal: '⚱️ Carbón',
+botol: '🍶 Botella',
+kaleng: '🥫 Lata',
+kardus: '🪧 Cartón',
+eleksirb: '💡 Electricidad',
+emasbatang: '〽️ Barra de Oro',
+emasbiasa: '🧭 Oro Común',
+rubah: '🦊🌫️ Zorro Grande',
+sampah: '🗑🌫️ Super Basura',
+serigala: '🐺🌫️ Super Lobo',
+kayu: '🛷🌫️ Super Madera',
+sword: '⚔️ Espada',
+umpan: '🪱 Carnada',
+healtmonster: '💵 Billetes',
+emas: '🪅 Piñata',
+pancingan: '🪝 Gancho',
+pancing: '🎣 Caña de Pescar',      
+common: '📦 Caja Común',
+uncoommon: '🥡 Caja Poco Común',
+mythic: '🗳️ Caja Mítica',
+pet: '📫 Caja de Mascotas',
+gardenboxs: '💐 Caja de Jardinería',
+legendary: '🎁 Caja Legendaria',
+anggur: '🍇 Uva',
+apel: '🍎 Manzana',
+jeruk: '🍊 Naranja',
+mangga: '🥭 Mango',
+pisang: '🍌 Platano',
+bibitanggur: '🌾🍇 Semillas de uva',
+bibitapel: '🌾🍎 Semillas de manzana',
+bibitjeruk: '🌾🍊 Semillas de naranja',
+bibitmangga: '🌾🥭 Semillas de Mango',
+bibitpisang: '🌾🍌 Semillas de plátano',
+centaur: '🐐 Centauro',
+griffin: '🦅 Ave',
+kucing: '🐈 Gato',
+naga: '🐉 Dragón',
+fox: '🦊 Zorro',
+kuda: '🐎 Caballo',
+phonix: '🕊️ Fénix',
+wolf: '🐺 Lobo',
+anjing: '🐶 Perro',
+petFood: '🍖 Alimento para Mascota',
+makanancentaur: '🐐🥩 Comida de Centauro',
+makanangriffin: '🦅🥩 Comida de Ave',
+makanankyubi: '🌀🥩 Comida Mágica',
+makanannaga: '🐉🥩 Comida de Dragón',
+makananpet: '🐎🥩 Alimentos Para Caballo',
+makananphonix: '🕊️🥩 Comida de Fénix',
 }
 let results = Object.keys(emottt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
 if (!results.length) return '';
@@ -484,3 +521,4 @@ unwatchFile(file);
 console.log(chalk.redBright("Update 'config.js'"));
 import(`${file}?update=${Date.now()}`);
 })
+   
