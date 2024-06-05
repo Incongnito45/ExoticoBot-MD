@@ -2,9 +2,11 @@
 
 const handler = async (m, {args, usedPrefix, command}) => {
   const fa = `
-*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙻𝙰 𝙲𝙰𝙽𝚃𝙸𝙳𝙰𝙳 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙰 𝙰𝙿𝙾𝚂𝚃𝙰𝚁* 
+᥀·࣭࣪̇˖🎮◗ 𝙄𝙣𝙜𝙧𝙚𝙨𝙖 𝙡𝙖 𝙘𝙖𝙣𝙩𝙞𝙙𝙖𝙙 𝙦𝙪𝙚 𝙙𝙚𝙗𝙚𝙨 𝙙𝙚 𝙖𝙥𝙤𝙨𝙩𝙖𝙧.
 
-*📌 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*
+• \`𝙎𝙊𝙇𝙊 𝙓𝙋\`
+
+• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:
 *${usedPrefix + command} 100*`.trim();
   if (!args[0]) throw fa;
   if (isNaN(args[0])) throw fa;
