@@ -1,6 +1,6 @@
 let handler = async (m, { isPrems, conn }) => {
 let time = global.db.data.users[m.sender].lastcofre + 0
-if (new Date - global.db.data.users[m.sender].lastcofre < 0) throw `Vuelva en ${timers.toTimeString()}`
+if (new Date - global.db.data.users[m.sender].lastcofre < 0) throw `Vuelva en ${msToTime(time - new Date())}`
 //SOLO ES PARA OWNERS 
 let img = imagenRB
 let dia = Math.floor(Math.random() * 50000)
