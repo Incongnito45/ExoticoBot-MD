@@ -16,7 +16,7 @@ case isCommand7:
 if (!text) return conn.reply(m.chat, `᥀·࣭࣪̇˖☁️◗ 𝘿𝙚𝙗𝙚 𝙙𝙚 𝙞𝙣𝙜𝙧𝙚𝙨𝙖𝙧 𝙪𝙣 𝙚𝙣𝙡𝙖𝙘𝙚 𝙫𝙖𝙡𝙞𝙙𝙤 𝙙𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤:\n*${usedPrefix + command} https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz*`, fkontak, m)
 if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '᥀·࣭࣪̇˖☁️◗ 𝙀𝙡 𝙚𝙣𝙡𝙖𝙘𝙚 𝙞𝙣𝙜𝙧𝙚𝙨𝙖𝙙𝙤 𝙣𝙤 𝙚𝙨 𝙫𝙖𝙡𝙞𝙙𝙤, 𝙙𝙚𝙗𝙚 𝙙𝙚 𝙞𝙣𝙜𝙧𝙚𝙨𝙖𝙧 𝙪𝙣 𝙚𝙣𝙡𝙖𝙘𝙚 𝙫𝙖𝙡𝙞𝙙𝙤 𝙨𝙚 𝙛𝙖𝙘𝙚𝙗𝙤𝙤𝙠.', fkontak, m)
 await conn.reply(m.chat, '᥀·࣭࣪̇˖🍁◗ 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙉𝘿𝙊... ✨', fkontak, m)
-m.react(done)
+//m.react(done)
 let messageType = checkMessageType(args[0])
 let message = ''
 switch (messageType) {
