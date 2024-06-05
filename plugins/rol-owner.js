@@ -1,6 +1,6 @@
 let handler = async (m, { isPrems, conn }) => {
 let time = global.db.data.users[m.sender].lastcofre + 0
-if (new Date - global.db.data.users[m.sender].lastcofre < 0) throw `${IDexotic.rpgTiempo}${IDexotic.Tiempo} ${timers.toTimeString()}`
+if (new Date - global.db.data.users[m.sender].lastcofre < 0) throw `Vuelva en ${timers.toTimeString()}`
 //SOLO ES PARA OWNERS 
 let img = imagenRB
 let dia = Math.floor(Math.random() * 50000)
@@ -31,7 +31,7 @@ _ESPECIAL:_
 *💻: ${servidor}*
 *🎁: ${paquetes}*`
 const fkontak = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo"}, "message": {"contactMessage": {"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, "participant": "0@s.whatsapp.net"}
-await conn.sendButton(m.chat, texto, IDexotic.botInfo, img, [[IDexotic.botonInfoA, '/minfo']], null, null, fkontak)  
+await conn.sendButton(m.chat, texto, wm, img, [['Mi info', '/minfo']], null, null, fkontak)  
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
 handler.help = ['exoticobot']
