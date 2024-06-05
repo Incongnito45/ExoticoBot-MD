@@ -1,3 +1,4 @@
+/*
 import { sticker } from '../lib/sticker.js'
 let handler = m => m
 
@@ -11,3 +12,4 @@ contextInfo: { externalAdReply: { title: '᥀·࣭࣪̇˖❄️◗ 𝙀𝙭𝙤�
 
 return !0 }
 export default handler
+*/
