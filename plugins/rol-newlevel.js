@@ -87,7 +87,7 @@ let str = `╭᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─᷼─
 │⌑┗┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•◌ͦ
 ╰────────────────────────•
 • 🪐 𝙏𝙐 𝙉𝙄𝙑𝙀𝙇 𝘼𝘾𝙏𝙐𝘼𝙇 𝙀𝙎: *${user.level}*
-• 🎒 𝙍𝘼𝙉𝙂𝙊: ${user.role}`.trim()
+• Subiste de nivel!!!`.trim()
 try {
 const img = await levelup(teks, user.level)
 conn.sendMessage(m.chat, {image: {url: imagenRB}, caption: str, mentions: conn.parseMention(str)}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
