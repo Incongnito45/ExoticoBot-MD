@@ -59,7 +59,7 @@ let exoticomenu = `
 ┋𝄽͢͡🍸› _${usedPrefix}menubyb_
 ┋𝄽͢͡🍸› _${usedPrefix}menueffect_ 
 ┋𝄽͢͡🍸› _${usedPrefix}menuminfo_
-┋𝄽͢͡🌃› _${usedPrefix}menujuegos_
+┋𝄽͢͡🍸› _${usedPrefix}menujuegos_
 ╚•─•𝄽͢͡🎩⊰•┈┈┈┈┈┈┈┈•⊱🎩͢͡𝅃•─•╯
 
 
@@ -216,6 +216,8 @@ let exoticomenu = `
 ┋𝄽͢͡🌐› _${usedPrefix}verig_  *usuario*
 ┋𝄽͢͡🌐› _${usedPrefix}igstory  *usuario*_
 ┋𝄽͢͡🌐› _${usedPrefix}mediafire_  *enlace*
+┋𝄽͢͡🌐› _${usedPrefix}m_  *enlace*
+┋𝄽͢͡🌐› _${usedPrefix}m2_  *enlace*
 ┋𝄽͢͡🌐› _${usedPrefix}imagen_  *texto*
 ┋𝄽͢͡🌐› _${usedPrefix}pinterest_  *texto*
 ┋𝄽͢͡🌐› _${usedPrefix}drive_  *enlace*
