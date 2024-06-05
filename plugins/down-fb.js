@@ -57,7 +57,7 @@ console.log(`᥀·࣭࣪̇˖❌◗ 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 𝙚𝙧𝙧𝙤
 console.log(err6)
 handler.limit = false
 }}}}}}}}
-handler.command = /^(facebook|fb|facebookdl|fbdl|facebook2|fb2|facebookdl2|fbdl2|facebook3|fb3|facebookdl3|fbdl3|facebook4|fb4|facebookdl4|fbdl4|facebook5|fb5|facebookdl5|fbdl5)$/i
+handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
 //handler.limit = 3 
 export default handler
 
