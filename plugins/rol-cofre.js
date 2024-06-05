@@ -1,6 +1,6 @@
 let handler = async (m, { isPrems, conn }) => {
 let time = global.db.data.users[m.sender].lastcofre + 86400000
-if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `𝗥𝗲𝗴𝗿𝗲𝘀𝗮 𝗲𝗻: ${timers.toTimeString()}`
+if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `𝗥𝗲𝗴𝗿𝗲𝘀𝗮 𝗲𝗻: ${msToTime(time - new Date())}`
 let img = imagenRB
 let dia = Math.floor(Math.random() * 50)
 let tok = Math.floor(Math.random() * 50)
