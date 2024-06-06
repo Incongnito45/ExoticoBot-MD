@@ -1,3 +1,4 @@
+/*
 import axios from "axios"
 let handler = async (m, {command, conn, usedPrefix}) => {
 let res = (await axios.get(`https://raw.githubusercontent.com/MultiBot-OFC/ExoticoBot-MD/master/NODE_EXOTICO_JSON/node-exotico-anime-boy/hot-${command}.json`)).data  
@@ -7,3 +8,4 @@ conn.sendButton(m.chat, `🔥🐻🍃 _${command}_ 🍃🐻🔥`.trim(), wm, hah
 handler.command = handler.help = ['takeda', 'asuma', 'endeavor']
 handler.tags = ['anime']
 export default handler
+*/
