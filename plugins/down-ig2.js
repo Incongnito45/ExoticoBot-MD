@@ -56,7 +56,7 @@ return conn.reply(m.chat, '᥀·࣭࣪̇˖🚫◗ 𝙊𝙘𝙪𝙧𝙧𝙞𝙤 �
 }
 handler.help = ['ig']
 handler.tags = ['descargas']
-handler.command = /^(instagramdl3|instagram3|igdl3|ig3)$/i
+handler.command = /^(instagramdl2|instagram2|igdl2|ig2)$/i
 
 handler.register = true
 handler.limit = true
