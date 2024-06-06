@@ -1592,7 +1592,7 @@ restrict: `𝇇•─•〘𝆭🌌𝆺𝅥𝙀𝙭𝙤𝙩𝙞𝙘𝆭𝙤𝘽𝙤�
 //if (msg) return m.reply(msg)
 	
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '꧁𝆭『❌𝆺𝅥𝘈𝘋𝘝𝘌𝘙𝘛𝘌𝘕𝘊𝘐𝘈𝆹𝅥❌』𝆭꧂', body: [wm, packname, '𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 / 𝘔𝘶𝘭𝘵𝘪𝘉𝘰𝘵'].getRandom(), thumbnail: imagenRB, sourceUrl: exoticoAll }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '꧁『🪐 𝙀𝙭𝙤𝙩𝙞𝙘𝙤 •𝆹𝅥◈𝆺𝅥• 𝘽𝙤𝙩 🪐』꧂', body: [wm, packname, '𝘔𝘶𝘭𝘵𝘪 ✯ 𝘉𝘰𝘵 ✯ 𝘔𝘋'].getRandom(), thumbnail: imagenRB, sourceUrl: exoticoAll }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
