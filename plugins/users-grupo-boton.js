@@ -12,9 +12,12 @@ await conn.sendButton(m.chat, grupobot, '• 𝙎𝙚𝙡𝙚𝙘𝙘𝙞𝙤�
 ['𝘼𝙗𝙧𝙞𝙧 ✅', '.egrupo abrir'],
 ['𝘾𝙚𝙧𝙧𝙖𝙧 ❌', '#egrupo cerrar']], null, null, m)
 }
-handler.help = ['estado']
+handler.help = ['grupo']
 handler.tags = ['main']
 handler.command = /^(grupo|group)$/i
+handler.botAdmin = true
+handler.admin = true
+handler.group = true
 export default handler
 
 function clockString(ms) {
