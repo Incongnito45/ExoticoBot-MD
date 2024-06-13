@@ -1,7 +1,7 @@
 let ro = 3000
 let handler = async (m, { conn, usedPrefix, command}) => {
 let time = global.db.data.users[m.sender].lastrob + 7200000
-if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `${IDexotic.rpgTiempo}${IDexotic.Tiempo} ${timers.toTimeString()}`
+if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `᥀·࣭࣪̇˖⏳◗ 𝙀𝙨𝙥𝙚𝙧𝙖 ${timers.toTimeString()} 𝙨𝙚𝙜𝙪𝙣𝙙𝙤(𝙨) 𝙥𝙖𝙧𝙖 𝙫𝙤𝙡𝙫𝙚𝙧 𝙖 𝙧𝙤𝙗𝙖𝙧.`
 let who
 if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
 else who = m.chat
@@ -18,7 +18,7 @@ m.reply(`*᥀·࣭࣪̇˖⚔️◗ Robaste ${rob} Xp a @${who.split`@`[0]}*`, nu
 global.db.data.users[m.sender].lastrob = new Date * 1
 }
 handler.help = ['rob']
-handler.tags = ['econ']
+handler.tags = ['rol']
 handler.command = ['robar', 'rob']
 handler.group = true
 handler.register = true
