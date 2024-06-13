@@ -1,3 +1,26 @@
+import Presence from '@whiskeysockets/baileys';
+const handler = async (m, {conn, args, text}) => {
+  if (!text) throw `᥀·࣭࣪̇˖🪐◗ 𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙩𝙚𝙭𝙩𝙤 𝙥𝙖𝙧𝙖 𝙘𝙖𝙢𝙗𝙞𝙖𝙧 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤.`;
+  try {
+    const text = args.join` `;
+    if (!args || !args[0]) {
+    } else {
+      conn.groupUpdateSubject(m.chat, text);
+    }
+    conn.reply(m.chat, '᥀·࣭࣪̇˖✅◗ 𝙉𝙊𝙈𝘽𝙍𝙀 𝙂𝙍𝙐𝙋𝘼𝙇 𝘾𝙊𝙉𝙁𝙄𝙂𝙐𝙍𝘼𝘿𝙊 𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊!!!', fkontak, m)
+  } catch (e) {
+    throw '᥀·࣭࣪̇˖🪐◗ 𝙀𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤 𝙣𝙤 𝙙𝙚𝙗𝙚 𝙙𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙚𝙧 𝙢𝙖𝙨 𝙙𝙚 100 𝙘𝙖𝙧𝙖𝙘𝙩𝙚𝙧𝙚𝙨.';
+  }
+};
+handler.help = ['setname'];
+handler.tags = ['grupos'];
+handler.command = /^(setname)$/i;
+handler.group = true;
+handler.admin = true;
+handler.botAdmin = true;
+export default handler;
+
+/*
 let Presence = (await import(global.baileys)).default
 let handler  = async (m, { conn, args, text }) => {
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
@@ -16,3 +39,4 @@ handler.group = true
 handler.admin = true
 handler.botAdmin = true
 export default handler 
+*/
