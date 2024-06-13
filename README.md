@@ -18,17 +18,20 @@
 <a href="https://github.com/MultiBot-OFC/ExoticoBot-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MultiBot-OFC/ExoticoBot-MD?label=Watching&style=social"></a>
 </p>
 
-<h3 align="center">BOT DE WHATSAPP</h3>
+<h3 align="center">🪐 ExoticoBot-MD 🪐</h3>
 
 `Version oficial de ExoticoBot-MD`
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-### ⬇️ `INSTALACIONES` ⬇️
+# ⬇️ `INSTALACIONES` ⬇️
 ------------------
-- [x] TERMUX <details><summary>Click Aqui ✅</summary><img src="https://telegra.ph/file/871cdbf5c32e535255941.jpg"></details>
-[INSTALAR TERMUX](https://f-droid.org/repo/com.termux_118.apk)
+## `INSTALAR POR TERMUX`
+<img src="https://telegra.ph/file/871cdbf5c32e535255941.jpg">
+
+- [INSTALAR TERMUX](https://f-droid.org/repo/com.termux_118.apk)
+
 ```bash
 termux-setup-storage && apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn && git clone https://github.com/MultiBot-OFC/ExoticoBot-MD && cd ExoticoBot-MD && yarn install && npm install
 ```
@@ -46,8 +49,11 @@ cd ExoticoBot-MD && npm start
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-- [x] CLOUD SHELL <details><summary>Click Aqui ✅</summary><img src="https://telegra.ph/file/f2bfc2c7fb56f1efaa387.jpg"></details>
-[CLINK](https://shell.cloud.google.com/?show=ide%2Cterminal&authuser=6&fromcloudshell=true)
+## `INSTALAR POR CLOUD SHELL`
+<img src="https://telegra.ph/file/f2bfc2c7fb56f1efaa387.jpg">
+
+- [CLINK](https://shell.cloud.google.com/?show=ide%2Cterminal&authuser=6&fromcloudshell=true)
+
 ```bash
 git clone https://github.com/MultiBot-OfC/ExoticoBot-MD && cd ExoticoBot-MD && yarn install && npm install
 ```
@@ -65,7 +71,9 @@ cd ExoticoBot-MD && npm start
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-- [x] CODE SPACE <details><summary>Click Aqui ✅</summary><img src="https://telegra.ph/file/ba095679e57685c24cf86.jpg"></details>
+## `INSTALAR POR CODE SPACE`
+<img src="https://telegra.ph/file/ba095679e57685c24cf86.jpg">
+
 - [CLICK](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=806956474&ref=main&geo=UsEast)
 
 ### 🪐 `ACTIVAR EL BOT` 🪐
@@ -77,7 +85,9 @@ cd ExoticoBot-MD && npm start
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-- [x]  SERVIDOR <details><summary>Click Aqui ✅</summary><img src="https://telegra.ph/file/83de1a7d5449c4e55cf90.jpg"></details>
+## `INSTALAR POR SERVIDOR`
+<img src="https://telegra.ph/file/83de1a7d5449c4e55cf90.jpg">
+
 - [COMPRA AQUI](https://wa.me/c/5493873232212)
 ------------------
 <!-- RAINBOW LINE BOT -->
