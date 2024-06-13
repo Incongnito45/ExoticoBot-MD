@@ -32,7 +32,7 @@ conn.sendMessage(m.chat, {sticker: mediax, mentions: users}, { quoted: m })
 } else {
 await conn.sendMessage(m.chat, { text : text ? text : '' , mentions: users}, { quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }}}
-handler.command = /^(hidetag|notificar|notify)$/i
+handler.command = /^(hidetag|tagid|notificar|notify)$/i
 handler.group = true
 handler.admin = true
 export default handler
