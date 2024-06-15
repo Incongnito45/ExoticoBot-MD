@@ -88,3 +88,5 @@ type: 'append',
 }
 this.ev.emit('messages.upsert', msg)
 }
+
+  
