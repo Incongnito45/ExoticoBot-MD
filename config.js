@@ -384,7 +384,20 @@ message: {
 'caption': bottime,
 'jpegThumbnail': fs.readFileSync('./Multi_Imagen/Menu3.jpg')
 }}}
-   
+
+//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+//Mensajes
+global.mensajesEditados = async function(conn, m) {
+const mensajes = [waitt, waittt, waitttt, waittttt]
+key = await conn.sendMessage(m.chat, { text: wait, quoted: m })
+for (let i = 0; i < mensajes.length; i++) {
+await new Promise(resolve => setTimeout(resolve, 1000))
+await conn.sendMessage(m.chat, { text: mensajes[i], edit: key })
+}}
+
+function pickRandom(list) {
+return list[Math.floor(Math.random() * list.length)]                                                                                                                                                          }
+  
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 //𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰
 global.multiplier = 85
