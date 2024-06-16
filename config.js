@@ -207,11 +207,6 @@ global.imgAdvs = [imgAdv, imgAdv2, imgAdv3, imgAdv4, imgAdv5, imgAdv6, imgAdv7, 
 //Videos
 global.videoMenu1 = fs.readFileSync("./NODE_EXOTICO_JSON/Menu1.mp4")
 global.videoMenu2 = fs.readFileSync("./NODE_EXOTICO_JSON/Menu2.mp4")
-
-//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
-//Estilos
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5493873232212-5493873232221@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: menusRB, sellerJid: '0@s.whatsapp.net' }}}
-global.estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5493873232212-5493873232221@g.us" } : {}) }, message: { "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"   
                                  
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 //𝘗𝘪𝘤𝘬 𝘳𝘢𝘯𝘥𝘰𝘮.
@@ -220,17 +215,6 @@ global.waitt = "❮🌌❯ •═══──────────• *33%*"
 global.waittt = "❮🌌❯ •═══════──────• *64%*"
 global.waitttt = "❮🌌❯ •═══════════──• *87%*"
 global.waittttt = "❮🌌❯ •═════════════• *100%*"
-
-//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
-//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
-global.ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 99, status: 1, surface: 1, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-global.fgif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Multi_Imagen/Menu3.jpg')}}}
-
-//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
-//𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
-global.enlace = { contextInfo: { externalAdReply: {title: wm, body: 'WhatsApp bot / MultiBot', sourceUrl: exoticoAll, thumbnail: await(await fetch(global.imgRB)).buffer() }}}
-global.enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: paypal, mediaType: 'VIDEO', description: '', title: wm, body: ' • ExoticoBot-MD / Multi Bot • ', thumbnailUrl: menusRB, sourceUrl: exoticoAll }}}
-global.dos = [enlace, enlace2]  
 
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 //𝘋𝘦𝘴𝘵𝘳𝘢𝘣𝘢.
@@ -379,19 +363,6 @@ message: {
 'caption': bottime,
 'jpegThumbnail': fs.readFileSync('./Multi_Imagen/Menu3.jpg')
 }}}
-
-//*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
-//Mensajes
-global.mensajesEditados = async function(conn, m) {
-const mensajes = [waitt, waittt, waitttt, waittttt]
-key = await conn.sendMessage(m.chat, { text: wait, quoted: m })
-for (let i = 0; i < mensajes.length; i++) {
-await new Promise(resolve => setTimeout(resolve, 1000))
-await conn.sendMessage(m.chat, { text: mensajes[i], edit: key })
-}}
-
-function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]                                                                                                                                                          }
   
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 //𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰
