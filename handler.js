@@ -7,6 +7,7 @@ import { unwatchFile, watchFile } from 'fs'
 import fs from 'fs'
 import chalk from 'chalk'   
 import fetch from 'node-fetch'
+import './plugins/zyn.js'
  
 /**
  * @type {import('@adiwajshing/baileys')}  
