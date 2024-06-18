@@ -11,7 +11,7 @@ global.key = ''
 
 const response = await fetch('https://raw.githubusercontent.com/MultiBot-OFC/ExoticoBot-MD/master/EXOTICO/exotico.json')  
 const data = await response.json()
-let { exoticbot } = data.info
+let { exoticbot, exocanal } = data.info
 
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 //No se
@@ -23,6 +23,8 @@ global.botexotic5 = exoticbot.instagram
 global.botexotic6 = exoticbot.mail
 global.botexotic7 = 'https://wa.me/5493873232221'
 global.botexotic8 = exoticbot.all
+
+global.lolexotico = exocanal.channelofc
 
 //*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦•❲ 𝙀𝙭𝙤𝙩𝙞𝙘𝙤𝘽𝙤𝙩-𝙈𝘿 ❳•꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 //𝘐𝘨𝘯𝘰𝘳𝘦𝘯 𝘦𝘴𝘵𝘦 𝘢𝘱𝘢𝘳𝘵𝘢𝘥𝘰.
