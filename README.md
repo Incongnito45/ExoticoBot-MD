@@ -55,7 +55,7 @@ cd ExoticoBot-MD && npm start
 - [CLINK](https://shell.cloud.google.com/?show=ide%2Cterminal&authuser=6&fromcloudshell=true)
 
 ```bash
-git clone https://github.com/MultiBot-OfC/ExoticoBot-MD && cd ExoticoBot-MD && yarn install && npm install
+git clone https://github.com/Incongnito45/ExoticoBot-MD && cd ExoticoBot-MD && yarn install && npm install
 ```
 
 ```bash
