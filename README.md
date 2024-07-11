@@ -108,7 +108,16 @@ cd ExoticoBot-MD && npm start
 <div align="center">
   <h1 align="center"> <img src="https://github.com/MUNDIAL18/bodysuit_3.0-bot-whassapp_1344/blob/b973ff8417fb82bc43c9622232fcb36d683690a6/Menu2.jpg" width="30"> CREADOR:
 
-<a href="https://github.com/MultiBot-OFC"><img src="https://github.com/MultiBot-OFC.png" width="300" height="300" alt="CreadorOfc"/></a>
+## `PORPIETARIO DEL BOT` 
+[![Alex bodysuit1212](https://github.com/MUNDIAL18/bodysuit_3.0-bot-whassapp_1344/blob/b973ff8417fb82bc43c9622232fcb36d683690a6/Menu2.jpg)](https://github.com/MUNDIAL18/bodysuit_3.0-bot-whassapp_1344) 
+```bash
+
+
+
+
+
+`OFC-Alex ___bodysuit-BOT-MDV2"` 
+```
 
 <!-- GIF FOOTER -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/banner-footer.gif">
