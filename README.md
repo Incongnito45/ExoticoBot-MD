@@ -1,7 +1,7 @@
 <!-- GIF HEADER -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/banner-header.gif">
 
-[![Menu2.png](https://i.postimg.cc/mgv6kbv1/Menu2.png)](https://postimg.cc/gxKKBPkG)
+[![Menu2.png](https://i.postimg.cc/mgv6kbv1/Menu2.png)](https://postlmg.cc/gxKKBPkG#google_vignette)
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
