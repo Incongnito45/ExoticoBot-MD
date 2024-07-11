@@ -106,7 +106,7 @@ cd ExoticoBot-MD && npm start
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 <div align="center">
-  <h1 align="center"> <img src="https://telegra.ph/file/ced2b60b1de9c4a80d70d.jpg" width="30"> CREADOR:
+  <h1 align="center"> <img src="https://github.com/MUNDIAL18/bodysuit_3.0-bot-whassapp_1344/blob/b973ff8417fb82bc43c9622232fcb36d683690a6/Menu2.jpg" width="30"> CREADOR:
 
 <a href="https://github.com/MultiBot-OFC"><img src="https://github.com/MultiBot-OFC.png" width="300" height="300" alt="CreadorOfc"/></a>
 
