@@ -98,7 +98,7 @@ cd ExoticoBot-MD && npm start
 
 [![WhatsApp](https://img.shields.io/badge/Creador-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5493873232212) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
 
-[![WhatsApp](https://img.shields.io/badge/Asistencia-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5493873232221) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
+[![WhatsApp](https://img.shields.io/badge/Asistencia-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573157265488) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
 
 [![WhatsApp](https://img.shields.io/badge/Ramon-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/523142183828) <img src="https://telegra.ph/file/b0ef26f77c0aaa777bb7c.jpg" width="30">
 
